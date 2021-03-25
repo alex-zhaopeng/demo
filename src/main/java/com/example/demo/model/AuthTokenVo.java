@@ -5,8 +5,6 @@ import org.apache.shiro.authc.AuthenticationToken;
 /**
  * @ClassName AuthTokenVo
  * @Description
- * @Author XinChunYu
- * @Date 2020/5/29 14:09
  * @Version 1.0
  **/
 public class AuthTokenVo implements AuthenticationToken {

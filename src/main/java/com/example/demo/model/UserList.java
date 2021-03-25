@@ -6,8 +6,6 @@ import java.util.List;
 /**
  * @ClassName UserList
  * @Description
- * @Author XinChunYu
- * @Date 2020/5/29 16:15
  * @Version 1.0
  **/
 public class UserList {

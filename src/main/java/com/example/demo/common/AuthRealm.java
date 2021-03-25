@@ -22,8 +22,6 @@ import java.util.List;
 /**
  * @ClassName AuthRealm
  * @Description
- * @Author XinChunYu
- * @Date 2020/5/29 13:51
  * @Version 1.0
  **/
 public class AuthRealm extends AuthorizingRealm {

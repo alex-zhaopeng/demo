@@ -18,8 +18,6 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * @ClassName AuthFilter
  * @Description 实现自定义的认证拦截器,接收传过来的token,实现前后端分离的权限认证
- * @Author XinChunYu
- * @Date 2020/5/29 14:03
  * @Version 1.0
  **/
 public class AuthFilter extends AuthenticatingFilter {

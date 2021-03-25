@@ -29,8 +29,6 @@ import java.util.Map;
 /**
  * @ClassName UserController
  * @Description
- * @Author XinChunYu
- * @Date 2020/5/29 14:15
  * @Version 1.0
  **/
 @Controller
