@@ -1,0 +1,64 @@
+INFO  2021-03-25 00:10:16.982 [SpringContextShutdownHook] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  2021-03-25 00:10:16.992 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+INFO  2021-03-25 00:10:17.020 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+INFO  2021-03-25 00:10:26.123 [main] com.example.demo.DemoApplication - Starting DemoApplication on localhost with PID 60915 (/Users/zhaopeng/Documents/self_workspaces/i2work-loan/demo/target/classes started by zhaopeng in /Users/zhaopeng/Documents/self_workspaces/i2work-loan/demo)
+INFO  2021-03-25 00:10:26.127 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+INFO  2021-03-25 00:10:27.737 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfiguration' of type [com.example.demo.config.ShiroConfiguration$$EnhancerBySpringCGLIB$$35f5b3f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:35.941 [main] com.example.demo.DemoApplication - Starting DemoApplication on localhost with PID 60921 (/Users/zhaopeng/Documents/self_workspaces/i2work-loan/demo/target/classes started by zhaopeng in /Users/zhaopeng/Documents/self_workspaces/i2work-loan/demo)
+INFO  2021-03-25 00:10:35.946 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+INFO  2021-03-25 00:10:37.084 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfiguration' of type [com.example.demo.config.ShiroConfiguration$$EnhancerBySpringCGLIB$$466056b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.692 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.700 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$89315a0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.703 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.714 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.742 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.915 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.923 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.924 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.926 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userDao' of type [com.sun.proxy.$Proxy48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.928 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userServiceImpl' of type [com.example.demo.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.928 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.common.AuthRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.941 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:37.961 [main] com.example.demo.config.ShiroConfiguration - Shiro拦截器工厂类注入成功
+INFO  2021-03-25 00:10:38.021 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  2021-03-25 00:10:38.504 [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+INFO  2021-03-25 00:10:38.519 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+INFO  2021-03-25 00:10:38.520 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+INFO  2021-03-25 00:10:38.520 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+INFO  2021-03-25 00:10:38.639 [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+INFO  2021-03-25 00:10:38.639 [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2608 ms
+INFO  2021-03-25 00:10:39.099 [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  2021-03-25 00:10:39.421 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+INFO  2021-03-25 00:10:39.461 [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+INFO  2021-03-25 00:10:39.474 [main] com.example.demo.DemoApplication - Started DemoApplication in 4.559 seconds (JVM running for 6.674)
+INFO  2021-03-25 00:10:51.942 [http-nio-8888-exec-2] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  2021-03-25 00:10:51.944 [http-nio-8888-exec-2] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+INFO  2021-03-25 00:10:51.959 [http-nio-8888-exec-2] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+INFO  2021-03-25 00:10:58.587 [http-nio-8888-exec-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO  2021-03-25 00:10:59.756 [http-nio-8888-exec-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO  2021-03-25 00:11:11.236 [http-nio-8888-exec-3] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 00:11:11.618 [http-nio-8888-exec-3] org.apache.shiro.realm.AuthorizingRealm - 用户角色权限认证
+INFO  2021-03-25 00:11:36.286 [http-nio-8888-exec-5] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 00:11:36.408 [http-nio-8888-exec-5] org.apache.shiro.realm.AuthorizingRealm - 用户角色权限认证
+INFO  2021-03-25 00:12:29.565 [http-nio-8888-exec-6] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 00:12:29.644 [http-nio-8888-exec-6] org.apache.shiro.realm.AuthorizingRealm - 验证失败，token过期，请重新登录。
+INFO  2021-03-25 00:13:09.652 [http-nio-8888-exec-7] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 00:16:03.176 [http-nio-8888-exec-1] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 00:16:03.422 [http-nio-8888-exec-1] org.apache.shiro.realm.AuthorizingRealm - 用户角色权限认证
+INFO  2021-03-25 00:16:20.728 [http-nio-8888-exec-2] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 00:16:41.275 [http-nio-8888-exec-3] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 00:16:41.393 [http-nio-8888-exec-3] org.apache.shiro.realm.AuthorizingRealm - 用户角色权限认证
+INFO  2021-03-25 00:17:00.891 [http-nio-8888-exec-4] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 00:17:04.478 [http-nio-8888-exec-5] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 00:17:06.766 [http-nio-8888-exec-6] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+WARN  2021-03-25 09:52:08.613 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h34m26s613ms).
+INFO  2021-03-25 10:28:00.030 [http-nio-8888-exec-2] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 10:28:00.231 [http-nio-8888-exec-2] org.apache.shiro.realm.AuthorizingRealm - 用户角色权限认证
+INFO  2021-03-25 10:28:29.420 [http-nio-8888-exec-4] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 10:28:29.529 [http-nio-8888-exec-4] org.apache.shiro.realm.AuthorizingRealm - 用户角色权限认证
+INFO  2021-03-25 10:29:17.119 [http-nio-8888-exec-5] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 10:30:19.879 [http-nio-8888-exec-6] org.apache.shiro.realm.AuthorizingRealm - 执行认证逻辑
+INFO  2021-03-25 10:30:19.996 [http-nio-8888-exec-6] org.apache.shiro.realm.AuthorizingRealm - 用户角色权限认证
+INFO  2021-03-25 10:38:01.266 [SpringContextShutdownHook] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  2021-03-25 10:38:01.269 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+INFO  2021-03-25 10:38:01.278 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

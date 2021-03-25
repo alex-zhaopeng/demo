@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.UserDao">
+    <resultMap id="UserRolePermission" type="com.example.demo.model.UserVo">
+        <id column="user_id" jdbcType="INTEGER" property="userId" />
+        <result column="username" jdbcType="VARCHAR" property="username" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <result column="salt" jdbcType="VARCHAR" property="salt" />
+        <collection property="userRoleList" ofType="com.example.demo.model.UserRole">
+            <id column="id" javaType="INTEGER" property="id"/>
+            <result column="role_id" jdbcType="INTEGER" property="roleId" />
+            <result column="user_id" jdbcType="INTEGER" property="userId" />
+            <collection property="roleList" ofType="com.example.demo.model.Role" >
+                <id column="user_role_id" jdbcType="INTEGER" property="userRoleId"/>
+                <result column="user_role_name" jdbcType="VARCHAR" property="userRoleName" />
+                <collection property="userPermissions" ofType="com.example.demo.model.UserPermission" >
+                    <id column="user_permission_id" jdbcType="INTEGER" property="userPermissionId" />
+                    <result column="user_permission_name" jdbcType="VARCHAR" property="userPermissionName" />
+                </collection>
+            </collection>
+        </collection>
+    </resultMap>
+    <select id="findUserByUsername" resultMap="UserRolePermission">
+        select a.*,ur.*,r.*,p.*
+          from user a
+         inner join user_role ur on a.user_id = ur.user_id
+         inner join role r on ur.role_id = r.user_role_id
+         inner join permission p on ur.role_id = p.role_id
+         where a.username =  #{username,jdbcType=VARCHAR}
+    </select>
+
+
+</mapper>
